@@ -1,0 +1,17 @@
+{
+  "name": "jg.js",
+  "description": "",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress",
+    "build": "cross-env NODE_ENV=production webpack --progress",
+    "beta": "cross-env NODE_ENV=beta webpack --progress"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^1.0.8",
+    "webpack": "beta",
+    "webpack-dev-server": "2.9.2"
+  }
+}
